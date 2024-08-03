@@ -13,7 +13,7 @@ export default function Navbar() {
             width={20}
             alt=""
           />
-          <Link href="./index.html">
+          <Link href="/">
             <Image src="/lws-logo-black.svg" height={120} width={120} alt="" />
           </Link>
         </div>

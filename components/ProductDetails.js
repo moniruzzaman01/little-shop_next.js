@@ -9,29 +9,39 @@ export default function ProductDetails() {
             <Image
               src="/iphone.jpg"
               className="w-[400px] h-[500px] mx-auto object-cover"
-              alt=""
+              alt="iphone image"
+              height={400}
+              width={400}
             />
 
             <div className="flex gap-4 mt-4">
               <Image
                 src="/iphone.jpg"
                 className="w-[100px] h-[100px] mx-auto border object-cover"
-                alt=""
+                alt="iphone image"
+                height={400}
+                width={400}
               />
               <Image
                 src="/iphone-2.jpg"
                 className="w-[100px] h-[100px] mx-auto border object-cover"
-                alt=""
+                alt="iphone image"
+                height={400}
+                width={400}
               />
               <Image
                 src="/iphone-3.jpg"
                 className="w-[100px] h-[100px] mx-auto border object-cover"
-                alt=""
+                alt="iphone image"
+                height={400}
+                width={400}
               />
               <Image
                 src="/iphone-4.jpg"
                 className="w-[100px] h-[100px] mx-auto border object-cover"
-                alt=""
+                alt="iphone image"
+                height={400}
+                width={400}
               />
             </div>
           </div>
@@ -41,11 +51,11 @@ export default function ProductDetails() {
             </h1>
             <span className="text-[#919090] my-3">Smartphone</span>
             <div className="mt-3 flex items-center justify-start gap-1">
-              <Image src="/star.svg" width="20px" alt="" />
-              <Image src="/star.svg" width="20px" alt="" />
-              <Image src="/star.svg" width="20px" alt="" />
-              <Image src="/star.svg" width="20px" alt="" />
-              <Image src="/star.svg" width="20px" alt="" />
+              <Image src="/star.svg" alt="" height={20} width={20} />
+              <Image src="/star.svg" alt="" height={20} width={20} />
+              <Image src="/star.svg" alt="" height={20} width={20} />
+              <Image src="/star.svg" alt="" height={20} width={20} />
+              <Image src="/star.svg" alt="" height={20} width={20} />
             </div>
             <hr className="my-5 bg-black" />
 
