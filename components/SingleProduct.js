@@ -2,8 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function SingleProduct({ product }) {
-  const { title, category, brand, discountPercentage, price, thumbnail } =
-    product;
+  const { title, category, brand, discountPercentage, price, thumbnail, id } =
+    product || {};
+
+  if (!product) {
+    return;
+  }
 
   return (
     <div>
@@ -19,11 +23,11 @@ export default function SingleProduct({ product }) {
       </div>
       <div className="pl-2">
         <h2 className="text-sm lg:text-base mt-2 space-x-1">
-          <Link className="text-base font-bold" href="./productPage.html">
+          <Link className="text-base font-bold" href={`/products/${id}`}>
             {brand}
           </Link>
           <span className="text-[#919090]">
-            <Link href="./category.html">({category})</Link>
+            <Link href={`/category/${category}`}>({category})</Link>
           </span>
         </h2>
         <p className="text-[#919090] text-sm">{title}</p>
