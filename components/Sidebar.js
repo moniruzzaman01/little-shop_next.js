@@ -28,13 +28,13 @@ export default function Sidebar() {
         Beauty
       </Link>
       <Link
-        href={"/category/fragnances"}
+        href={"/category/fragrances"}
         scroll={false}
         className={`hover:border-b border-black h-6 mt-5 ${
-          path == "fragnances" && "border-b"
+          path == "fragrances" && "border-b"
         }`}
       >
-        Fragnances
+        Fragrances
       </Link>
       <Link
         href={"/category/groceries"}
