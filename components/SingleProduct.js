@@ -14,12 +14,14 @@ export default function SingleProduct({ product }) {
       <div
         className={`relative delay-150 w-180px lg:w-full h-[205px] lg:h-[310px] bg-[#f8f8f8] transition-all duration-3000 ease-in-out transform`}
       >
-        <Image
-          src={thumbnail}
-          alt={`${title} thumbnail`}
-          height={500}
-          width={500}
-        />
+        <Link href={`/products/${id}`}>
+          <Image
+            src={thumbnail}
+            alt={`${title} thumbnail`}
+            height={500}
+            width={500}
+          />
+        </Link>
       </div>
       <div className="pl-2">
         <h2 className="text-sm lg:text-base mt-2 space-x-1">

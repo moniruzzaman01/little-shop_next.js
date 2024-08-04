@@ -1,9 +1,10 @@
 import ProductDetails from "@/components/ProductDetails";
 
-export default function ProductsPage() {
+export default function ProductsPage({ params: { id } }) {
+  console.log(id);
   return (
     <div>
-      <ProductDetails />
+      <ProductDetails id={id} />
     </div>
   );
 }
