@@ -58,7 +58,7 @@ export const products = [
     id: 2,
     title: "Eyeshadow Palette with Mirror",
     description:
-      "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+      "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, its convenient for on-the-go makeup application.",
     category: "beauty",
     price: 19.99,
     discountPercentage: 5.5,
@@ -278,7 +278,7 @@ export const products = [
     id: 6,
     title: "Calvin Klein CK One",
     description:
-      "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+      "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. Its a versatile fragrance suitable for everyday wear.",
     category: "fragrances",
     price: 49.99,
     discountPercentage: 0.32,
@@ -390,9 +390,9 @@ export const products = [
   },
   {
     id: 8,
-    title: "Dior J'adore",
+    title: "Dior Jadore",
     description:
-      "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
+      "Jadore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
     category: "fragrances",
     price: 89.99,
     discountPercentage: 17.44,
@@ -438,25 +438,25 @@ export const products = [
       qrCode: "https://assets.dummyjson.com/public/qr-code.png",
     },
     images: [
-      "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/1.png",
-      "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/2.png",
-      "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/3.png",
+      "https://cdn.dummyjson.com/products/images/fragrances/Dior%20Jadore/1.png",
+      "https://cdn.dummyjson.com/products/images/fragrances/Dior%20Jadore/2.png",
+      "https://cdn.dummyjson.com/products/images/fragrances/Dior%20Jadore/3.png",
     ],
     thumbnail:
-      "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/thumbnail.png",
+      "https://cdn.dummyjson.com/products/images/fragrances/Dior%20Jadore/thumbnail.png",
   },
   {
     id: 9,
     title: "Dolce Shine Eau de",
     description:
-      "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+      "Dolce Shine by Dolce  Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. Its a joyful and youthful scent.",
     category: "fragrances",
     price: 69.99,
     discountPercentage: 11.47,
     rating: 2.68,
     stock: 3,
     tags: ["fragrances", "perfumes"],
-    brand: "Dolce & Gabbana",
+    brand: "Dolce  Gabbana",
     sku: "1NBFK980",
     weight: 5,
     dimensions: { width: 17, height: 24.57, depth: 13.3 },
@@ -506,7 +506,7 @@ export const products = [
     id: 10,
     title: "Gucci Bloom Eau de",
     description:
-      "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+      "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. Its a modern and romantic scent.",
     category: "fragrances",
     price: 79.99,
     discountPercentage: 8.9,
